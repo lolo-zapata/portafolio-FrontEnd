@@ -8,7 +8,8 @@ import { SectionComponent } from './Components/section/section.component';
 import { EducationSectionComponent } from './Components/education-section/education-section.component';
 import { ContactSectionComponent } from './Components/contact-section/contact-section.component';
 import { FooterComponent } from './Components/footer/footer.component';
-import { HttpClientModule } from '@angular/common/http'; 
+import { HttpClientModule } from '@angular/common/http';
+import { LoginHeaderComponent } from './Components/header/login-header/login-header.component'; 
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { HttpClientModule } from '@angular/common/http';
     EducationSectionComponent,
     ContactSectionComponent,
     FooterComponent,
+    LoginHeaderComponent,
   ],
   imports: [
     BrowserModule,
