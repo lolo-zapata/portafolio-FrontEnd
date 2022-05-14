@@ -39,7 +39,7 @@
 
 body {
     font-family: var(--primary-font);
-    background-color: var(--secondary-color);
+    background-color:var(--secondary-color);
 }
 
 a {
@@ -164,7 +164,8 @@ button {
 }
 .header_wrapper .menu-navbar-nav{
     text-align: center;
-    padding-bottom: 15px;   
+    padding-bottom: 15px; 
+    background-color: var(--bg-dark-blue);  
 }
 .header_wrapper .navbar{
     padding: 15px 0;
@@ -350,6 +351,9 @@ button {
     margin-bottom: 15px;
     font-weight: 300;
     list-style: none;
+}
+.about_wrapper .circle-progress{
+    
 }
 
 
