@@ -251,6 +251,28 @@ button {
     color: var(--text-white);
 }
 
+/* Formulario */
+.header_wrapper .dropdown-menu{
+    background-color: var(--bg-dark-blue);
+    color: var(--bg-white);
+}
+.header_wrapper .dropdown-menu .btn-primary{
+    outline: none;
+    box-shadow: none;
+    display: inline-block;
+    border-radius: 50px;
+    transition: all .4s ease-in-out;
+    padding: 10px 27px;
+    background-color: var(--primary-color);
+    border: 2px solid ;
+    color: var(--bg-white);
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
 /* 3 Banner */
 .banner_wrapper{
     width: 100%;
@@ -263,6 +285,12 @@ button {
     background-attachment: fixed;
     padding: 200px 0 100px 0;
 }
+.icon i{
+    padding: 10px;
+    font-size: 45px;
+    color: var(--bg-white);
+}
+
 
 /* 4 About */
 .about_wrapper ul.nav-pills {
