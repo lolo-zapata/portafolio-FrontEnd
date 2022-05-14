@@ -164,7 +164,6 @@ button {
 }
 .header_wrapper .menu-navbar-nav{
     text-align: center;
-    background-color: var(--bg-dark-blue);
     padding-bottom: 15px;   
 }
 .header_wrapper .navbar{
@@ -228,6 +227,30 @@ button {
 .header-scrolled .nav-item .nav-link:hover{
     color: var(--primary-text);
 }
+
+/* Boton inicio */
+.header_wrapper .btn-link{
+    outline: none;
+    box-shadow: none;
+    display: inline-block;
+    border-radius: 50px;
+    transition: all .4s ease-in-out;
+    padding: 10px 27px;
+    background-color: transparent;
+    border: 2px solid var(--gray-color);
+    color: var(--text-gray);
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.header_wrapper .btn-link:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: var(--text-white);
+}
+
 /* 3 Banner */
 .banner_wrapper{
     width: 100%;
