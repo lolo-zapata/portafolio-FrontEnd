@@ -2,12 +2,22 @@
     "name": "Lorenzo Zapata",
     "backImage": "../assets/fondobaner.jpg",
     "position": "Full Stack Developer Jr.",
-    "Radicado en": "Radicado en Argentina"
+    "Radicado en": "Radicado en Argentina",
+    "Redes": "Redes"
 ,
 
 
     "image": "../assets/bps.jpg",
     "Sobre Mi": "",
-    "Mis Habilidades": ""
+    "Mis Habilidades": "",
+    "Hard & Soft skills": "",
+    "Experiencia": ""
+,
 
+    "Instituciones a las cuales participé": "",
+    "Caja1":"",
+    "Caja2":"",
+    "Caja3":""
+  
 }
+
