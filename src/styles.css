@@ -164,8 +164,9 @@ button {
 }
 .header_wrapper .menu-navbar-nav{
     text-align: center;
-    padding-bottom: 15px; 
-    background-color: var(--bg-dark-blue);  
+    padding-bottom: 10px; 
+    
+      
 }
 .header_wrapper .navbar{
     padding: 15px 0;
