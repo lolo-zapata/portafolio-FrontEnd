@@ -9,6 +9,9 @@ import { ContactSectionComponent } from './Components/contact-section/contact-se
 import { FooterComponent } from './Components/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import { NavbarComponent } from './Components/header/navbar/navbar.component';
+import { BannerComponent } from './Components/header/banner/banner.component';
+import { ImgComponent } from './Components/header/navbar/img/img.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +21,9 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     EducationSectionComponent,
     ContactSectionComponent,
     FooterComponent,
+    NavbarComponent,
+    BannerComponent,
+    ImgComponent,
   ],
   imports: [
     BrowserModule,
