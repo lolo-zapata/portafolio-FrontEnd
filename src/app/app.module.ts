@@ -12,6 +12,8 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
 import { NavbarComponent } from './Components/header/navbar/navbar.component';
 import { BannerComponent } from './Components/header/banner/banner.component';
 import { ImgComponent } from './Components/header/navbar/img/img.component';
+import { HarySoftskillsComponent } from './Components/section/hary-softskills/hary-softskills.component';
+import { ImgSComponent } from './Components/section/img-s/img-s.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,8 @@ import { ImgComponent } from './Components/header/navbar/img/img.component';
     NavbarComponent,
     BannerComponent,
     ImgComponent,
+    HarySoftskillsComponent,
+    ImgSComponent,
   ],
   imports: [
     BrowserModule,
