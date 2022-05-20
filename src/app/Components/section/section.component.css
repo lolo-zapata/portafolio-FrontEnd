@@ -1,6 +1,6 @@
 /* 4 About */
 .about_wrapper ul.nav-pills {
-    border: 1px solid var(--gray-color);
+    border: 2.5px solid var(--gray-color);
     border-radius: 50px;
 }
 
@@ -10,7 +10,7 @@
     font-weight: 500;
     transition: all 0.45s cubic-bezier(0, 0, 0.2, 1);
     display: inline-block;
-    color: var(--text-gray);
+    color: var(--text-white);
     border: 0;
     transition: 0.3s;
 }

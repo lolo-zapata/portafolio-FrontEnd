@@ -306,7 +306,7 @@ button {
     font-weight: 500;
     transition: all 0.45s cubic-bezier(0, 0, 0.2, 1);
     display: inline-block;
-    color: var(--text-gray);
+    color: var(--text-white);
     border: 0;
     transition: 0.3s;
 }
