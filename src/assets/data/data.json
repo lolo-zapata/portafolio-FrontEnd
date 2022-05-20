@@ -2,22 +2,58 @@
     "name": "Lorenzo Zapata",
     "backImage": "../assets/fondobaner.jpg",
     "position": "Full Stack Developer Jr.",
-    "Radicado en": "Radicado en Argentina",
-    "Redes": "Redes"
-,
+    "radicadoEn": "Radicado en Argentina",
+    "redes": {
+        "github": "https://github.com/lolo-zapata",
+        "linkedin": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "twitter": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "facebook": "https://www.youtube.com/watch?v=lpiB2wMc49g",
+        "instagram": "https://www.youtube.com/watch?v=lpiB2wMc49g"
+    },
 
 
     "image": "../assets/bps.jpg",
-    "Sobre Mi": "",
-    "Mis Habilidades": "",
-    "Hard & Soft skills": "",
-    "Experiencia": ""
-,
+    "sobreMi": {
+        "frontendDeveloper": "",
+        "backendDeveloper": "",
+        "dbServer": ""
+    },
+    "hard&softSkills": {
+        "circle1":"",
+        "circle2":"",
+        "circle3":"",
+        "circle4":"",
+        "circle5":"",
+        "circle6":"",
+        "circle7":"",
+        "circle8":""
+    },
+    "experiencia": "",
 
-    "Instituciones a las cuales participé": "",
-    "Caja1":"",
-    "Caja2":"",
-    "Caja3":""
+    "institucionesParticipé": {
+        "caja1":"",
+        "caja2":"",
+        "caja3":""
+    },
+
+    "proyectosRealizados": "Caja1",
+    
+    "contacto": {
+        "contactoTeléfono": "+54 342 5300941",
+        "contactoEmail": "lorenzozapatazarate@gmail.com",
+        "suNombre":"",
+        "suTeléfono":"",
+        "suEmail":"",
+        "comentario":""
+    },
+
+    "ubicacionesyRedes": {
+        "ubicación":"https://www.google.com/maps/place/Santo+Tom%C3%A9,+Santa+Fe/@-31.6726839,-60.8010166,13.52z/data=!4m5!3m4!1s0x95b5a878d134ce5f:0x8e81a69f28215923!8m2!3d-31.6727704!4d-60.7689185?shorturl=1",
+        "email":"lorenzozapatazarate@gmail.com",
+        "whatsApp":"+54 342 5300941",
+        "gitHub":"https://github.com/lolo-zapata"
+    }
+    
   
 }
 
