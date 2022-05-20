@@ -1,0 +1,14 @@
+.banner_wrapper{
+    width: 100%;
+    height:auto;
+    min-height: 700px;
+    background-image: url('../../../../assets/fondobaner.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px 0 100px 0;
+}
+.banner_wrapper .row img{
+    background-image: url('../../../../assets/fondobaner.jpg');
+}
