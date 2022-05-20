@@ -16,6 +16,7 @@ import { HarySoftskillsComponent } from './Components/section/hary-softskills/ha
 import { ImgSComponent } from './Components/section/img-s/img-s.component';
 import { ProyectsSectionComponent } from './Components/proyects-section/proyects-section.component';
 import { ImgPComponent } from './Components/proyects-section/img-p/img-p.component';
+import { ImgFComponent } from './Components/footer/img-f/img-f.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { ImgPComponent } from './Components/proyects-section/img-p/img-p.compone
     ImgSComponent,
     ProyectsSectionComponent,
     ImgPComponent,
+    ImgFComponent,
   ],
   imports: [
     BrowserModule,
