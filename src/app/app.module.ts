@@ -14,6 +14,8 @@ import { BannerComponent } from './Components/header/banner/banner.component';
 import { ImgComponent } from './Components/header/navbar/img/img.component';
 import { HarySoftskillsComponent } from './Components/section/hary-softskills/hary-softskills.component';
 import { ImgSComponent } from './Components/section/img-s/img-s.component';
+import { ProyectsSectionComponent } from './Components/proyects-section/proyects-section.component';
+import { ImgPComponent } from './Components/proyects-section/img-p/img-p.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +30,8 @@ import { ImgSComponent } from './Components/section/img-s/img-s.component';
     ImgComponent,
     HarySoftskillsComponent,
     ImgSComponent,
+    ProyectsSectionComponent,
+    ImgPComponent,
   ],
   imports: [
     BrowserModule,
