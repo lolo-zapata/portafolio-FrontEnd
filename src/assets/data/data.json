@@ -61,31 +61,27 @@
     
     "experiencia": "",
 
-    "educacion": [{
-        "institución1": [{
-            "imgE": "../../../assets/WhatsApp Image 2022-05-09 at 8.53.51 AM.jpeg",
+    "educacion": {
+        "institucion1": {
+            "imgE": "../assets/WhatsApp Image 2022-05-09 at 8.53.51 AM.jpeg",
             "titulo": "Full Stack Developer Jr",
             "año": "2021 - 2022",
             "donde": "Argentina Programa - #YoProgramo"
-        }
-    ],
-        "institución2": [{
-            "imgE": "../../../assets/ap-dark.png",
+        },
+        "institucion2": {
+            "imgE": "../assets/ap-dark.png",
             "titulo": "Primera etapa Argentina Programa",
             "año": "2021",
             "donde": "Argentina Programa - #SeProgramar"
-        }
-    ],
-        "institución3": [{
-            "imgE": "../../../assets/WhatsApp Image 2022-05-09 at 8.53.51 AM.jpeg",
+        },
+        "institucion3": {
+            "imgE": "../assets/WhatsApp Image 2022-05-09 at 8.53.51 AM.jpeg",
             "titulo": "Lic. Prof. Filosofía",
             "año": "2019 - Actualidad",
             "donde": "UNL-FHUC - Santa Fe, Argentina",
             "sitioWeb": "https://www.fhuc.unl.edu.ar/academica/categorias/carreras/filosofia/#:~:text=En%20la%20FHUC%20se%20estudian,y%20t%C3%A9cnico%20de%20la%20especialidad."
         }
-    ]
-    }
-],
+    },
 
     "proyectosRealizados": "Caja1",
     
