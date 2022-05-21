@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PortfolioService } from 'src/app/Servicios/portfolio.service';
 
 @Component({
   selector: 'app-section',
@@ -6,10 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./section.component.css']
 })
 export class SectionComponent implements OnInit {
-
-  constructor() { }
+    miPortfolio:any;
+    constructor(private datosPortfolio:PortfolioService) { }
 
   ngOnInit(): void {
-  }
+    this.datosPortfolio.obtenerDatos().subscribe(data =>{
+      console.log(data);
+      this.miPortfolio=data;
+    });
 
+  }
 }

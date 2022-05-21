@@ -9,7 +9,7 @@
                 <div class="my-3 my-lg-0">
                     <span class="subtitle">Detalles acerca de mi</span>
                     <h2>Sobre Mi</h2>       
-                    <p>Contenido a terminar ahre.</p>
+                    <p>{{miPortfolio.sobreMi}}</p>
                 </div>
                 <div class="pt-4">
                     <ul class="nav nav-pills justify-content-center justify-content-between mb-3" id="pills-tab" role="tablist">
@@ -34,34 +34,7 @@
                     </ul>
 
                     <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-skill" role="tabpanel" aria-labelledby="pills-skill-tab">
-                            <div class="single-progress">
-                                <h6>Frontend Developer</h6>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="single-progress">
-                                <h6>Backend Developer</h6>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="single-progress">
-                                <h6>DB Server</h6>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <!-- div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"></div> -->
-                        <div div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                            <app-hary-softskills></app-hary-softskills>
-                        </div>
-                        <div class="tab-pane fade" id="pills-experiencia" role="tabpanel" aria-labelledby="pills-experiencia-tab">
-
-                        </div>
+                        <app-progreso-barras></app-progreso-barras>
                     </div>
                 </div>
             </div>
