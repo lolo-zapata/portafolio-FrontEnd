@@ -10,33 +10,55 @@
         "facebook": "https://www.youtube.com/watch?v=lpiB2wMc49g",
         "instagram": "https://www.youtube.com/watch?v=lpiB2wMc49g"
     }],
-
-
     "imagenPerfil": "../assets/bps.jpg",
     "sobreMi": "Contenido a terminar ahre.",
     "progreso": [{
-        "habilidad":"Frontend Developer",
-        "valor": "50%"
-    },
-    {
-        "habilidad":"Backend Developer",
-        "valor": "50%"
-    },
-    {
-        "habilidad":"DB Server",
-        "valor": "50%"
-    }
-],
-    "hard&softSkills":[{
-        "circle1":"",
-        "circle2":"",
-        "circle3":"",
-        "circle4":"",
-        "circle5":"",
-        "circle6":"",
-        "circle7":"",
-        "circle8":""
-    }],
+            "habilidad":"Frontend Developer",
+            "valor": "50%"
+        },
+        {
+            "habilidad":"Backend Developer",
+            "valor": "50%"
+        },
+        {
+            "habilidad":"DB Server",
+            "valor": "50%"
+        }
+    ],
+
+    "circleSkills": [{
+            "percent":"50",
+            "radius":"70",
+            "imagesrc":"../../../assets/html.png",
+            "showImage":"true"
+        },
+        {     
+            "percent":"50",
+            "radius":"70",
+            "imagesrc":"../../../assets/css-3.png"
+        },
+        {     
+            "percent":"50",
+            "radius":"70",
+            "imagesrc":"../../../assets/bootstrap.png"
+        },
+        {     
+            "percent":"50",
+            "radius":"70",
+            "imagesrc":"../../../assets/js.png"
+        },
+        {     
+            "percent":"50",
+            "radius":"70",
+            "imagesrc":"../../../assets/angular.png"
+        },
+        {     
+            "percent":"50",
+            "radius":"70",
+            "imagesrc":"../../../assets/github.png"
+        }
+    ],
+    
     "experiencia": "",
 
     "institucionesParticipé": [{

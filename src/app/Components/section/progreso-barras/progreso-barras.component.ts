@@ -14,7 +14,7 @@ export class ProgresoBarrasComponent implements OnInit {
  ngOnInit(): void {
       this.datosPortfolio.obtenerDatos().subscribe(data =>{
         console.log(data);
-        this.progresoList=data.progresoList;
+        this.progresoList=data.progreso;
       })
 
   }
