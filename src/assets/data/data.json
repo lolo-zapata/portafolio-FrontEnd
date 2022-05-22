@@ -3,16 +3,19 @@
     "backImage": "../assets/fondobaner.jpg",
     "position": "Full Stack Developer Jr.",
     "radicadoEn": "Radicado en Argentina",
-    "redes": [{
+    "redes":[
+        {
         "github": "https://github.com/lolo-zapata",
         "linkedin": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
         "twitter": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
         "facebook": "https://www.youtube.com/watch?v=lpiB2wMc49g",
         "instagram": "https://www.youtube.com/watch?v=lpiB2wMc49g"
-    }],
+        }
+    ],
     "imagenPerfil": "../assets/bps.jpg",
     "sobreMi": "Contenido a terminar ahre.",
-    "progreso": [{
+    "progreso":[
+        {
             "habilidad":"Frontend Developer",
             "valor": "50%"
         },
@@ -26,7 +29,8 @@
         }
     ],
 
-    "circleSkills": [{
+    "circleSkills":[
+        {
             "percent":"50",
             "radius":"70",
             "imagesrc":"../../../assets/html.png",
@@ -61,38 +65,41 @@
     
     "experiencia": "",
 
-    "educacion": {
-        "institucion1": {
+    "education":[
+        {
             "imgE": "../assets/WhatsApp Image 2022-05-09 at 8.53.51 AM.jpeg",
             "titulo": "Full Stack Developer Jr",
-            "año": "2021 - 2022",
+            "comienzo": "2021",
+            "final": "2022",
             "donde": "Argentina Programa - #YoProgramo"
         },
-        "institucion2": {
+        {
             "imgE": "../assets/ap-dark.png",
             "titulo": "Primera etapa Argentina Programa",
-            "año": "2021",
+            "comienzo": "2021",
+            "final": "Actualidad",
             "donde": "Argentina Programa - #SeProgramar"
         },
-        "institucion3": {
+        {
             "imgE": "../assets/WhatsApp Image 2022-05-09 at 8.53.51 AM.jpeg",
             "titulo": "Lic. Prof. Filosofía",
-            "año": "2019 - Actualidad",
-            "donde": "UNL-FHUC - Santa Fe, Argentina",
-            "sitioWeb": "https://www.fhuc.unl.edu.ar/academica/categorias/carreras/filosofia/#:~:text=En%20la%20FHUC%20se%20estudian,y%20t%C3%A9cnico%20de%20la%20especialidad."
-        }
-    },
+            "comienzo": "2019",
+            "final": "Atualidad",
+            "donde": "UNL-FHUC - Santa Fe - Argentina"
+        } 
+    ],
 
     "proyectosRealizados": "Caja1",
     
-    "contacto": [{
+    "contacto":
+        {
         "contactoTeléfono": "+54 342 5300941",
         "contactoEmail": "lorenzozapatazarate@gmail.com",
         "suNombre":"",
         "suTeléfono":"",
         "suEmail":"",
         "comentario":""
-    }],
+        },
 
     "ubicacionesyRedes": [{
         "ubicación":"https://www.google.com/maps/place/Santo+Tom%C3%A9,+Santa+Fe/@-31.6726839,-60.8010166,13.52z/data=!4m5!3m4!1s0x95b5a878d134ce5f:0x8e81a69f28215923!8m2!3d-31.6727704!4d-60.7689185?shorturl=1",

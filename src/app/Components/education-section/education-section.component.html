@@ -7,35 +7,20 @@
                 <h2>Instituciones a las cuales participé</h2>
             </div>
         </div>
-        <ul class="row">
-            <li class="col-lg-4 col-md-6 mb-4">
+        
+           <ul class="row">
+            <li *ngFor="let education of educationList" class="col-lg-4 col-md-6 mb-4">
                 <div class="card-body text-md-start text-center">
-                    <img [src]="educationList.institucion1.imgE" alt="education" class="img-fluid mb-4">
-                    <h3>{{educationList.institucion1.titulo}}</h3>
-                    <p>2021 - 2022</p>
-                    <p>Argentina Programa - #YoProgramo</p>
+                    <img [src]="education.imgE" alt="education" class="img-fluid mb-4">
+                    <h3>{{education.titulo}}</h3>
+                    <p><time>{{education.comienzo}}</time> - <time>{{education.final}}</time></p>
+                    <p>{{education.donde}}</p>
                 </div>
             </li>
-            <li class="col-lg-4 col-md-6 mb-4">
-                <div class="card-body text-md-start text-center">
-                    <img src="../../../assets/ap-dark.png" alt="education" class="img-fluid mb-4">
-                    <h3>Primera etapa Argentina Programa</h3>
-                    <p>2021</p>
-                    <p>Argentina Programa - #SeProgramar</p>
-                </div>
-            </li>
-            <li class="col-lg-4 col-md-6 mb-4">
-                <div class="card-body text-md-start text-center">
-                    <a href="https://www.fhuc.unl.edu.ar/academica/categorias/carreras/filosofia/#:~:text=En%20la%20FHUC%20se%20estudian,y%20t%C3%A9cnico%20de%20la%20especialidad." target="_blank">
-                        <img src="../../../assets/ap-dark.png" alt="education" class="img-fluid mb-4">
-                        <h3>Lic. Prof. Filosofía</h3>
-                        <p>2019 - Actualidad</p>
-                        <p>UNL-FHUC - Santa Fe, Argentina</p>
-                    </a>  
-               </div>
-            </li>
-        </ul>
-    </div>
+         
+           </ul>
+        </div>
+    
 </section>
 
 <!-- Education section exit -->
