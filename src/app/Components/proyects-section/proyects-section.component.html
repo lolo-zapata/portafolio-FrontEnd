@@ -7,20 +7,18 @@
                 <h2>A continuación los proyectos en los que me vi involucrados</h2>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-6 mb-4">
+        <ul class="row">
+            <li *ngFor="let proyects of proyectsList" class="col-lg-4 col-md-6 mb-4">
                 <div class="card-body text-md-start text-center">
-                    <a href="http://localhost:4200/" target="_blank">
-                        <a class="img-fluid mb-4">
-                            <app-img-p></app-img-p>
-                        <h3>Portfolio Personal</h3>
-                        <p>2022</p>
-                        <p>Argentina Programa - #YoProgramo</p>
-                        </a>
+                    <a [href]="proyects.link" target="_blank">
+                        <img [src]="proyects.imgE" class="img-fluid mb-4">
                     </a>
+                        <h3>{{proyects.titulo}}</h3>
+                        <p><time>{{proyects.fecha}}</time></p>
+                        <p>{{proyects.donde}}</p>                        
                 </div>
-            </div>
-        </div>
+            </li>
+        </ul>
     </div>
 </section>
 

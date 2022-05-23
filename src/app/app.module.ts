@@ -15,7 +15,6 @@ import { ImgComponent } from './Components/header/navbar/img/img.component';
 import { HarySoftskillsComponent } from './Components/section/hary-softskills/hary-softskills.component';
 import { ImgSComponent } from './Components/section/img-s/img-s.component';
 import { ProyectsSectionComponent } from './Components/proyects-section/proyects-section.component';
-import { ImgPComponent } from './Components/proyects-section/img-p/img-p.component';
 import { ImgFComponent } from './Components/footer/img-f/img-f.component';
 import { ProgresoBarrasComponent } from './Components/section/progreso-barras/progreso-barras.component';
 
@@ -33,7 +32,6 @@ import { ProgresoBarrasComponent } from './Components/section/progreso-barras/pr
     HarySoftskillsComponent,
     ImgSComponent,
     ProyectsSectionComponent,
-    ImgPComponent,
     ImgFComponent,
     ProgresoBarrasComponent,
   ],
