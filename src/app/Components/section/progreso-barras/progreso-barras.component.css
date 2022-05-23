@@ -1,4 +1,12 @@
 /* 4 About */
+h6 {
+    color: var(--text-gray);
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: block;
+    margin-bottom: 20px;
+}
 .about_wrapper ul.nav-pills {
     border: 2.5px solid var(--gray-color);
     border-radius: 50px;
