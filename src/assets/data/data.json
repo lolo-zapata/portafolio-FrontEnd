@@ -5,13 +5,32 @@
     "radicadoEn": "Radicado en Argentina",
     "redes":[
         {
-        "github": "https://github.com/lolo-zapata",
-        "linkedin": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-        "twitter": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-        "facebook": "https://www.youtube.com/watch?v=lpiB2wMc49g",
-        "instagram": "https://www.youtube.com/watch?v=lpiB2wMc49g"
+            "link": "https://github.com/lolo-zapata",
+            "icon": "fab fa-github",
+            "id": "Github"
+        },
+        {
+            "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "icon": "fab fa-linkedin-in",
+            "id": "Linkedin"
+        },
+        {
+            "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "icon": "fab fa-twitter",
+            "id": "Twitter"
+        },
+        {
+            "link": "https://www.youtube.com/watch?v=lpiB2wMc49g",
+            "icon": "fab fa-facebook",
+            "id": "Facebook"
+        },
+        {
+            "link": "https://www.youtube.com/watch?v=lpiB2wMc49g",
+            "icon": "fab fa-instagram",
+            "id": "Instagram"
         }
     ],
+
     "imagenPerfil": "../assets/bps.jpg",
     "sobreMi": "Contenido a terminar ahre.",
     "progreso":[

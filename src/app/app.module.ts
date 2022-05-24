@@ -17,6 +17,7 @@ import { ImgSComponent } from './Components/section/img-s/img-s.component';
 import { ProyectsSectionComponent } from './Components/proyects-section/proyects-section.component';
 import { ImgFComponent } from './Components/footer/img-f/img-f.component';
 import { ProgresoBarrasComponent } from './Components/section/progreso-barras/progreso-barras.component';
+import { RedesComponent } from './Components/header/banner/redes/redes.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { ProgresoBarrasComponent } from './Components/section/progreso-barras/pr
     ProyectsSectionComponent,
     ImgFComponent,
     ProgresoBarrasComponent,
+    RedesComponent,
   ],
   imports: [
     BrowserModule,
