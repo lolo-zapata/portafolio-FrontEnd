@@ -3,6 +3,9 @@
     max-width: 110px;
     height: auto;
 }
+.education_wrapper li img{
+   background-color: white;
+}
 
 .education_wrapper .card-body{
     background-color: var(--bg-dark-blue);
