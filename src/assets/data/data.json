@@ -31,7 +31,7 @@
         }
     ],
 
-    "imagenPerfil": "../assets/bps.jpg",
+    "imagenPerfil": "../assets/yo.jpg",
     "sobreMi": "Contenido a terminar ahre.",
     "progreso":[
         {
@@ -152,8 +152,112 @@
             "lazy":"false"
         }
     ],
+
+    "languageSkills":[
+        {
+            "percent":"100",
+            "radius":"70",
+            "imageSrc":"../../../assets/demostrador.png",
+            "showImage": "true",
+            "imageHeight":"67",
+            "imageWidth":"67",
+            "showUnits":"false",
+            "showSubtitle":"false",
+            "outerStrokeWidth":"10",
+            "innerStrokeWidth":"3",
+            "outerStrokeColor":"#Fc3838",
+            "innerStrokeColor":"#337DFF",
+            "animation":"true",
+            "animationDuration":"300",
+            "lazy":"false"
+        },
+        {     
+            "percent":"100",
+            "radius":"70",
+            "imageSrc":"../../../assets/idea.png",
+            "showImage": "true",
+            "imageHeight":"67",
+            "imageWidth":"67",
+            "showUnits":"false",
+            "showSubtitle":"false",
+            "outerStrokeWidth":"10",
+            "innerStrokeWidth":"3",
+            "outerStrokeColor":"#Fc3838",
+            "innerStrokeColor":"#337DFF",
+            "animation":"true",
+            "animationDuration":"300",
+            "lazy":"false"
+        },
+        {     
+            "percent":"100",
+            "radius":"70",
+            "imageSrc":"../../../assets/partners.png",
+            "showImage": "true",
+            "imageHeight":"67",
+            "imageWidth":"67",
+            "showUnits":"false",
+            "showSubtitle":"false",
+            "outerStrokeWidth":"10",
+            "innerStrokeWidth":"3",
+            "outerStrokeColor":"#Fc3838",
+            "innerStrokeColor":"#337DFF",
+            "animation":"true",
+            "animationDuration":"300",
+            "lazy":"false"
+        },
+        {     
+            "percent":"100",
+            "radius":"70",
+            "imageSrc":"../../../assets/metas.png",
+            "showImage": "true",
+            "imageHeight":"67",
+            "imageWidth":"67",
+            "showUnits":"false",
+            "showSubtitle":"false",
+            "outerStrokeWidth":"10",
+            "innerStrokeWidth":"3",
+            "outerStrokeColor":"#Fc3838",
+            "innerStrokeColor":"#337DFF",
+            "animation":"true",
+            "animationDuration":"300",
+            "lazy":"false"
+        },
+        {     
+            "percent":"100",
+            "radius":"70",
+            "imageSrc":"../../../assets/habilidades.png",
+            "showImage": "true",
+            "imageHeight":"67",
+            "imageWidth":"67",
+            "showUnits":"false",
+            "showSubtitle":"false",
+            "outerStrokeWidth":"10",
+            "innerStrokeWidth":"3",
+            "outerStrokeColor":"#Fc3838",
+            "innerStrokeColor":"#337DFF",
+            "animation":"true",
+            "animationDuration":"300",
+            "lazy":"false"
+        },
+        {     
+            "percent":"100",
+            "radius":"70",
+            "imageSrc":"../../../assets/follow-up.png",
+            "showImage": "true",
+            "imageHeight":"67",
+            "imageWidth":"67",
+            "showUnits":"false",
+            "showSubtitle":"false",
+            "outerStrokeWidth":"10",
+            "innerStrokeWidth":"3",
+            "outerStrokeColor":"#Fc3838",
+            "innerStrokeColor":"#337DFF",
+            "animation":"true",
+            "animationDuration":"300",
+            "lazy":"false"
+        }
+    ],
     
-    "experiencia": "",
 
     "education":[
         {

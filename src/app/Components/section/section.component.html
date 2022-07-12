@@ -4,12 +4,13 @@
         <div class="row justify-content-between align-items-center">
             <div class="col-lg-5 mb-4 mb-lg-0">
                 <app-img-s></app-img-s>
+                <app-edit></app-edit>
             </div>
             <div class="col-lg-7 ps-lg-5 text-center text-lg-start">
                 <div class="my-3 my-lg-0">
                     <span class="subtitle">Detalles acerca de mi</span>
                     <h2>Sobre Mi</h2>       
-                    <p>{{miPortfolio.sobreMi}}</p>
+                    <p>{{miPortfolio.sobreMi}}<app-edit></app-edit></p>
                 </div>
                 <div class="pt-4">
                     <ul class="nav nav-pills justify-content-center justify-content-between mb-3" id="pills-tab" role="tablist">
@@ -21,21 +22,28 @@
                           </li>
 
                         <li class="nav-item" role="presentation">
-                          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" 
-                          data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" 
-                          aria-selected="false">Hard & Soft skills</button>
+                          <button class="nav-link" id="pills-language-tab" data-bs-toggle="pill" 
+                          data-bs-target="#pills-language" type="button" role="tab" aria-controls="pills-language" 
+                          aria-selected="false">Lenguajes</button>
                         </li>
 
                         <li class="nav-item" role="presentation">
-                          <button class="nav-link" id="pills-experiencia-tab" data-bs-toggle="pill" 
-                          data-bs-target="#pills-experiencia" type="button" role="tab" aria-controls="pills-experiencia" 
-                          aria-selected="false">Experiencia</button>
+                          <button class="nav-link" id="pills-softskills-tab" data-bs-toggle="pill" 
+                          data-bs-target="#pills-softskills" type="button" role="tab" aria-controls="pills-softskills" 
+                          aria-selected="false">Hard & Soft Skills</button>
                         </li>
                     </ul>
 
                     <div class="tab-content" id="pills-tabContent">
-                        <app-progreso-barras></app-progreso-barras>
-                        <app-hary-softskills></app-hary-softskills>  
+                        <div class="tab-pane fade show active" id="pills-skill" role="tabpanel" aria-labelledby="pills-skill-tab">
+                            <app-progreso-barras></app-progreso-barras>
+                        </div>
+                        <div class="tab-pane fade show active" id="pills-language" role="tabpanel" aria-labelledby="pills-language-tab">
+                            <app-hard-y-softskills></app-hard-y-softskills>  
+                        </div>
+                        <div class="tab-pane fade show active" id="pills-softskills" role="tabpanel" aria-labelledby="pills-softskills-tab">
+                            <app-language></app-language>
+                        </div>
                     </div>
                 </div>
             </div>

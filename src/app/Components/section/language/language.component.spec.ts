@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HarySoftskillsComponent } from './hary-softskills.component';
+import { LanguageComponent } from './language.component';
 
-describe('HarySoftskillsComponent', () => {
-  let component: HarySoftskillsComponent;
-  let fixture: ComponentFixture<HarySoftskillsComponent>;
+describe('LanguageComponent', () => {
+  let component: LanguageComponent;
+  let fixture: ComponentFixture<LanguageComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ HarySoftskillsComponent ]
+      declarations: [ LanguageComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(HarySoftskillsComponent);
+    fixture = TestBed.createComponent(LanguageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

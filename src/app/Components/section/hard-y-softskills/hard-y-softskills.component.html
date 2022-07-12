@@ -1,4 +1,5 @@
-<ul class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+
+<div>
     <li *ngFor="let circleSkills of skillsList" class="circle">
         <circle-progress
         [percent]="circleSkills.percent"
@@ -17,5 +18,6 @@
         [animationDuration]="circleSkills.animationDuration"
         [lazy]="circleSkills.lazy">
         </circle-progress>
+            <app-edit></app-edit>
     </li>
-</ul>
+</div>

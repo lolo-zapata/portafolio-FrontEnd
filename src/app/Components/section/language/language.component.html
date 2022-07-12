@@ -1,0 +1,24 @@
+
+
+<div>
+    <li *ngFor="let languageSkills of skillsList" class="circle">
+        <circle-progress
+        [percent]="languageSkills.percent"
+        [radius]="languageSkills.radius"
+        [imageSrc]="languageSkills.imageSrc"
+        [showImage]="languageSkills.showImage"
+        [imageHeight]="languageSkills.imageHeight"
+        [imageWidth]="languageSkills.imageWidth"
+        [showUnits]="languageSkills.showUnits"
+        [showSubtitle]="languageSkills.showSubtitle"
+        [outerStrokeWidth]="languageSkills.outerStrokeWidth"
+        [innerStrokeWidth]="languageSkills.innerStrokeWidth"
+        [outerStrokeColor]="languageSkills.outerStrokeColor"
+        [innerStrokeColor]="languageSkills.innerStrokeColor"
+        [animation]="languageSkills.animation"
+        [animationDuration]="languageSkills.animationDuration"
+        [lazy]="languageSkills.lazy">
+        </circle-progress>
+            <app-edit></app-edit>
+    </li>
+</div>
