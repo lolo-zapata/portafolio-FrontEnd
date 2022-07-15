@@ -1,9 +1,10 @@
 i{
+    
     color: var(--bg-white);
     font-size: 33px;
+    display: inline-block;
     
 }
-
 
 div{
     display: inline-block;

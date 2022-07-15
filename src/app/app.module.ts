@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './Components/header/header.component';
 import { SectionComponent } from './Components/section/section.component';
 import { EducationSectionComponent } from './Components/education-section/education-section.component';
+import { ContactSectionComponent } from './Components/contact-section/contact-section.component';
 import { FooterComponent } from './Components/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NgCircleProgressModule } from 'ng-circle-progress';
@@ -26,6 +27,7 @@ import { LanguageComponent } from './Components/section/language/language.compon
     HeaderComponent,
     SectionComponent,
     EducationSectionComponent,
+    ContactSectionComponent,
     FooterComponent,
     NavbarComponent,
     BannerComponent,
