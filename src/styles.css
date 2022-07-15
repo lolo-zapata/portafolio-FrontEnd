@@ -164,15 +164,14 @@ button {
 }
 .header_wrapper .menu-navbar-nav{
     text-align: center;
-    padding-bottom: 10px; 
-    
-      
+    padding-bottom: 10px;    
 }
 .header_wrapper .navbar{
     padding: 15px 0;
     -webkit-transition:all .2s linear;
     -o-transition:all .2s linear;
     transition:all .2s linear;
+    background-color: var(--bg-dark-blue);
 }
 
 .header_wrapper .navbar-brand img{
@@ -419,6 +418,14 @@ button {
 }
 
 /* 7 footer */
+
+.footer_wrapper{
+    padding: 15px 0;
+    -webkit-transition:all .2s linear;
+    -o-transition:all .2s linear;
+    transition:all .2s linear;
+    background-color: var(--bg-dark-blue);
+}
 
 /* Responsive Code */
 @media (max-width: 991px) {

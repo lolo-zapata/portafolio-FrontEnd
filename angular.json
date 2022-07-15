@@ -32,7 +32,8 @@
               "src/styles.css"
             ],
             "scripts": [
-              "node_modules/bootstrap/dist/js/bootstrap.js"
+              "node_modules/bootstrap/dist/js/bootstrap.js",
+              "src/script.js"
             ]
           },
           "configurations": {
@@ -99,7 +100,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/script.js"
+            ]
           }
         }
       }
